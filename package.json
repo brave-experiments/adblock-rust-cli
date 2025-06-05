@@ -1,0 +1,30 @@
+{
+  "name": "adblock-rs-cli",
+  "version": "0.0.1",
+  "description": "Command line interface for applying filter list rules against requests, using Brave's adblock-rust library.",
+  "main": "run.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brave-experiments/adblock-rs-cli.git"
+  },
+  "keywords": [
+    "adblock"
+  ],
+  "author": "Peter Snyder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brave-experiments/adblock-rs-cli/issues"
+  },
+  "homepage": "https://github.com/brave-experiments/adblock-rs-cli#readme",
+  "dependencies": {
+    "adblock-rs": "^0.9.8",
+    "argparse": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}
